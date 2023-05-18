@@ -1,0 +1,5 @@
+x1=open("New Text Document.txt","a+")
+x1.write("M")
+x1=open("New Text Document.txt","r")
+print(x1.read())
+x1.close()
